@@ -21,7 +21,7 @@
                 <ComboBox x:Name="cbMegyek" Width="90" SelectionChanged="cbMegyek_SelectionChanged"></ComboBox>
                 <Button Width="50" x:Name="btnReset" Content="Reset" Click="btnReset_Click"></Button>
                 <Button Width="270" x:Name="btnNovekvoFerfi" Content="Rendezés növekvő sorrendben férfi lakosok által" Click="btnNovekvoFerfi_Click"></Button>
-                <Button Width="270" x:Name="btnNovekvoNoi" Content="Rendezés növekvő sorrendben Nő lakosok által" Click="btnNovekvo_Click"></Button>
+                <Button Width="270" x:Name="btnNovekvoNoi" Content="Rendezés növekvő sorrendben Nő lakosok által" Click="btnNovekvoNoi_Click"></Button>
             </StackPanel>
         </Border>
         <DataGrid x:Name="dgTelepulesek"

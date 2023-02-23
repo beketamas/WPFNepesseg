@@ -94,7 +94,7 @@ namespace WPFNepesseg
 
 		}
 
-		private void btnNovekvo_Click(object sender, RoutedEventArgs e)
+		private void btnNovekvoNoi_Click(object sender, RoutedEventArgs e)
 		{
 			List<Telepules> telepulesek;
 			telepulesek = AdatokBetoltese("Adatok\\kozerdeku_lakossag_2022.csv");
