@@ -19,10 +19,13 @@
                 <Label Content="Megye">
                 </Label>
                 <ComboBox x:Name="cbMegyek" Width="90" SelectionChanged="cbMegyek_SelectionChanged"></ComboBox>
+                <Button Width="50" x:Name="btnReset" Content="Reset" Click="btnReset_Click"></Button>
+                <Button Width="270" x:Name="btnNovekvoFerfi" Content="Rendezés növekvő sorrendben férfi lakosok által" Click="btnNovekvoFerfi_Click"></Button>
+                <Button Width="270" x:Name="btnNovekvoNoi" Content="Rendezés növekvő sorrendben Nő lakosok által" Click="btnNovekvo_Click"></Button>
             </StackPanel>
         </Border>
         <DataGrid x:Name="dgTelepulesek"
-                  Grid.Row="1" Background="Cornsilk" Margin="5"> 
+                  Grid.Row="1" Background="Cornsilk" Margin="5">
         </DataGrid>
         <Border Grid.Row="2" Background="LightSalmon"
                 BorderThickness="5" BorderBrush="Red"
@@ -33,7 +36,7 @@
                 <Label Content="{Binding ElementName=dgTelepulesek, Path=Items.Count}"
                        FontSize="14" Foreground="Green"></Label>
             </StackPanel>
-            
+
         </Border>
     </Grid>
 </Window>

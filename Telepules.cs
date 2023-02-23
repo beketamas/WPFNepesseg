@@ -31,7 +31,7 @@ namespace WPFNepesseg
 		public string TelepulesNev { get => telepulesNev; }
 		public string TelepulesTipus { get => telepulesTipus; }
 		public int FerfiLakosokSzama { get => ferfiLakosokSzama; }
-		public int NoiLakosokSzama { get => noiLakosokSzama; }
+		public int NoiLakosokSzama { get => noiLakosokSzama;}
 
 		public int LakosokSzamaEgyutt { get => this.ferfiLakosokSzama + this.NoiLakosokSzama; }
 	}
